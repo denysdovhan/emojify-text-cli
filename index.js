@@ -11,7 +11,7 @@ import emogifyText from 'emojify-text'
  */
 const cli = meow(`
   Usage
-    $ emojify-text <bg> <fg> <text>
+    $ emojify-text <bg> <fg> <text> [...]
 
   Options
     -r, --row    Print emojis in row.

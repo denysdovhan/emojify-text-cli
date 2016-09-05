@@ -5,45 +5,29 @@
 [![Coveralls Status][coveralls-image]][coveralls-url]
 [![Dependency Status][depstat-image]][depstat-url]
 
-> Command line interface to emojify-text
+> Command line interface to [emojify-text](https://github.com/denysdovhan/emojify-text)
 
 ## Install
 
-    npm install --save emojify-text-cli
+    npm install -g emojify-text-cli
 
 ## Usage
 
-```js
-import { emojifyTextCli, emojifyTextCliAsync } from 'emojify-text-cli';
-
-emojifyTextCli('unicorns'); // unicorns
-emojifyTextCliAsync('unicorns')
-  .then(result => console.log(result)); // unicorns
 ```
+$ emojify-text --help
 
-## API
+  Command line interface to emojify-text
 
-### emojifyTextCli(input, [options])
+  Usage
+    $ emojify-text <bg> <fg> <text> [...]
 
-### emojifyTextCliAsync(input, [options])
+  Options
+    -r, --row    Print emojis in row.
 
-Return a promise that resolves to `result`.
-
-#### input
-
-*Required*  
-Type: `String`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `Boolean`  
-Default: `false`
-
-Lorem ipsum.
+  Examples
+    $ emojify-text ⭐️ 💙 'lol'
+    $ emojify-text ⭐️ 💙  I love emojis
+```
 
 ## License
 
