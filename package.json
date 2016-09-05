@@ -4,6 +4,9 @@
   "description": "Command line interface to emojify-text",
   "main": "index.es5.js",
   "jsnext:main": "index.js",
+  "bin": {
+    "emojify-text": "bin/emojify-text"
+  },
   "files": [
     "bin/emojify-text",
     "index.es5.js",
