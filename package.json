@@ -5,6 +5,7 @@
   "main": "index.es5.js",
   "jsnext:main": "index.js",
   "files": [
+    "bin/emojify-text",
     "index.es5.js",
     "index.js"
   ],
@@ -16,7 +17,7 @@
     "coveralls": "coveralls < coverage/lcov.info",
     "test": "tape test.js --require babel-register | tap-spec",
     "tdd": "chokidar *.js --command 'npm test' --initial --throttle=50 --polling",
-    "transpile": "babel cli --out-file cli.es5.js",
+    "transpile": "babel index.js --out-file index.es5.js",
     "prepublish": "npm run transpile",
     "clean": "rimraf index.es5.js",
     "push": "git push --follow-tags",

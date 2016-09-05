@@ -1,0 +1,12 @@
+
+  Command line interface to emojify-text
+
+  Usage
+    $ emojify-text <bg> <fg> <text>
+
+  Options
+    -r, --row    Print emojis in row.
+
+  Examples
+    $ emojify-text ⭐️  💙  'lol'
+    $ emojify-text ⭐️  💙  I love emojis

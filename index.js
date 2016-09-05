@@ -17,8 +17,8 @@ const cli = meow(`
     -r, --row    Print emojis in row.
 
   Examples
-    $ emojify-text ⭐️ 💙 'lol'
-    $ emojify-text ⭐️ 💙 I love emojis
+    $ emojify-text ⭐️  💙  'lol'
+    $ emojify-text ⭐️  💙  I love emojis
 `, {
   default: {
     row: false
