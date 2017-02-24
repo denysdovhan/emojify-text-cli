@@ -1,6 +1,6 @@
 {
   "name": "emojify-text-cli",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Command line interface to emojify-text",
   "main": "index.es5.js",
   "jsnext:main": "index.js",
